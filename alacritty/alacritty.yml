@@ -1,0 +1,21 @@
+import:
+        - /home/rando/.config/alacritty/Dracula/dracula.yml
+
+font:
+  normal:
+    family: Delugia Nerd Font
+    style: Regular
+
+  bold:
+    family: Delugia Nerd Font
+    style: Bold
+
+  italic:
+    family: Delugia Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: Delugia Nerd Font
+    style: Bold Italic
+
+  size: 12
