@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# A YT-DL utility that allows you to just download stuff straight to your Videos directory
+#
+
+
+cd ~/Videos && youtube-dl "$1"
