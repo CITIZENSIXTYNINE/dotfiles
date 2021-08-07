@@ -9,7 +9,7 @@ fi
 
 # ECP (Exit Confirm Prompt)
 exit() {
-    read -t5 -n1 -p "Are you SURE that you want to quit? [yes/no] " exitYes || exitYes=yes
+    read -t5 -n1 -p "Are you SURE that you want to quit? [y/n] " exitYes || exitYes=y
     case $exitYes in
         [yes] ) builtin exit $1 ;;
     * ) printf "\n" ;;
@@ -36,7 +36,7 @@ elif [ -f /etc/bash_completion ]; then
 fi
 
 
-# PS1 Prompt (too lazy to fix add the colour variables i made)
+# PS1 Prompt (too lazy to fix and i use starship so suck it)
 PS1=" \[\033[1;34m\][\033[0m\] "
 
 # Man Pages Colours
@@ -66,3 +66,6 @@ alias gcm='git commit -m'
 
 # User-Unique/Misc Aliases
 alias sdf='ssh citizensixtynine@tty.sdf.org'
+
+# Starship Init
+eval "$(starship init bash)"

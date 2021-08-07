@@ -1,21 +1,53 @@
+# Import stuff
 import:
         - /home/rando/.config/alacritty/Dracula/dracula.yml
-
+# Delugia besto fonto
 font:
   normal:
-    family: Delugia Nerd Font
+    family: Delugia
     style: Regular
 
   bold:
-    family: Delugia Nerd Font
+    family: Delugia
     style: Bold
 
   italic:
-    family: Delugia Nerd Font
+    family: Delugia
     style: Italic
 
   bold_italic:
-    family: Delugia Nerd Font
+    family: Delugia
     style: Bold Italic
 
   size: 12
+
+# Not a big fan of borders yknow
+padding:
+  x: 0
+  y: 0
+
+# pew pew!
+cursor:
+   style: Beam
+
+# Consistency is key in life
+dynamic_title: false
+
+# I'd like to quote my hero, Richard Hendricks, on this one. https://www.youtube.com/watch?v=SsoOG6ZeyUI
+tabspaces: 4
+
+# Bind these nuts lmao
+key_bindings:
+  - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
+  - { key: V,         mods: Control|Shift, action: Paste                       }
+  - { key: C,         mods: Control|Shift, action: Copy                        }
+  - { key: Insert,    mods: Shift,         action: PasteSelection              }
+  - { key: Key0,      mods: Control,       action: ResetFontSize               }
+  - { key: Equals,    mods: Control,       action: IncreaseFontSize            }
+  - { key: Plus,      mods: Control,       action: IncreaseFontSize            }
+  - { key: Minus,     mods: Control,       action: DecreaseFontSize            }
+  - { key: F11,       mods: None,          action: ToggleFullscreen            }
+  - { key: Paste,     mods: None,          action: Paste                       }
+  - { key: Copy,      mods: None,          action: Copy                        }
+  - { key: L,         mods: Control,       action: ClearLogNotice              }
+  - { key: L,         mods: Control,       chars: "\x0c"                       }
