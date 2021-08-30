@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Simple command that helps me convert Markdown to MediaWiki Markup. 
+#
+# Note that it outputs the result into the terminal, not into a file
+#
+
+pandoc --from=markdown --to=mediawiki "$1"
