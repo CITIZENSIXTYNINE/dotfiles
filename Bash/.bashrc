@@ -19,7 +19,7 @@ exit() {
 # Exports and PATH shit
 export PATH
 export EDITOR="nvim"
-export TERM="alacritty"
+export TERM="gnome-terminal"
 export VISUAL="nvim"
 
 # User specific environment
@@ -64,8 +64,8 @@ alias gc='git clone'
 alias gp='git push'
 alias gcm='git commit -m'
 
-# User-Unique/Misc Aliases
-alias sdf='ssh citizensixtynine@tty.sdf.org'
+# Misc Aliases
+alias vim='nvim'
 
 # Starship Init
 eval "$(starship init bash)"

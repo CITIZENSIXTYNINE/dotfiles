@@ -1,17 +1,19 @@
 # Kris's /etc/hosts file
-# As of August 7st 2021
+# December 5th - 2021
 
-# Palemachine stuff - I'M LONELY, WITH MY PALE MACHINE!
-127.0.0.1   localhost
-::1     localhost
-127.0.0.1   palemachine.localdomain palemachine
+# Localhost stuff - I own a Matebook, Matebooks are made by Huawei, Huawei is chinese. Get it?
+127.0.0.1	localhost
+::1		localhost
+127.0.0.1	chinkbook.localdomain chinkbook
 
 # Sublime Text - I'm not paying 99$ for this piece of shit.
 127.0.0.1 www.sublimetext.com
+127.0.0.1 sublimemerge.com
 127.0.0.1 sublimetext.com
 127.0.0.1 sublimehq.com
 127.0.0.1 telemetry.sublimehq.com
 127.0.0.1 license.sublimehq.com
+127.0.0.1 sublimemerge.com
 127.0.0.1 45.55.255.55
 127.0.0.1 45.55.41.223
 0.0.0.0 license.sublimehq.com
@@ -298,7 +300,7 @@
 0.0.0.0 alpha-shv-09-frc1.facebook.com
 0.0.0.0 alpha.vvv.facebook.com
 0.0.0.0 alpha.whatsapp.com
-0.0.0.0 an.facebook.com           
+0.0.0.0 an.facebook.com			  
 0.0.0.0 api-read.facebook.com
 0.0.0.0 api.facebook.com
 0.0.0.0 api.instagram.com
@@ -2113,48 +2115,59 @@
 0.0.0.0 zero.freebasics.com
 0.0.0.0 zero.internet.org
 
-# Mozilla - I don't like them and I use Chrome so suck it!
-0.0.0.0 detectportal.firefox.com
-0.0.0.0 accounts.firefox.com
-0.0.0.0 activations.cdn.mozilla.net
-0.0.0.0 addons.mozilla.org
-0.0.0.0 aus5.mozilla.org
-0.0.0.0 auth.services.mozilla.com
-0.0.0.0 blocked.cdn.mozilla.net
-0.0.0.0 blocklist.addons.mozilla.org
-0.0.0.0 code.cdn.mozilla.net
-0.0.0.0 content.cdn.mozilla.net
-0.0.0.0 crash-stats.mozilla.com
-0.0.0.0 discovery.addons.mozilla.org
-0.0.0.0 experiments.mozilla.org
-0.0.0.0 fhr.cdn.mozilla.net
-0.0.0.0 ftp.mozilla.org
-0.0.0.0 incoming.telemetry.mozilla.org
-0.0.0.0 input.mozilla.org
-0.0.0.0 install.mozilla.org
-0.0.0.0 location.services.mozilla.com
-0.0.0.0 malware-error.mozilla.com
-0.0.0.0 mozilla.com
-0.0.0.0 mozilla.org
-0.0.0.0 onyx_tiles.stage.mozaws.net
-0.0.0.0 phish-error.mozilla.com
-0.0.0.0 phish-report.mozilla.com
-0.0.0.0 push.services.mozilla.com
-0.0.0.0 search.services.mozilla.com
-0.0.0.0 self-repair.mozilla.org
-0.0.0.0 services.addons.mozilla.org
-0.0.0.0 services.mozilla.com
-0.0.0.0 setup.services.mozilla.com
-0.0.0.0 shavar.services.mozilla.com
-0.0.0.0 support.mozilla.org
-0.0.0.0 tbpl.mozilla.org
-0.0.0.0 telemetry-experiment.cdn.mozilla.net
-0.0.0.0 telemetry.mozilla.org
-0.0.0.0 tiles.services.mozilla.com
-0.0.0.0 token.services.mozilla.com
-0.0.0.0 versioncheck-bg.addons.mozilla.org
-0.0.0.0 versioncheck.addons.mozilla.org
-0.0.0.0 webextensions.settings.services.mozilla.com
-0.0.0.0 wiki.mozilla.org
+# Microsoft Telemetry - What a blessing
+0.0.0.0 134.170.30.202
+0.0.0.0 137.116.81.24
+0.0.0.0 204.79.197.200
+0.0.0.0 23.218.212.69
+0.0.0.0 65.39.117.230
+0.0.0.0 65.55.108.23
+0.0.0.0 a-0001.a-msedge.net
+0.0.0.0 choice.microsoft.com
+0.0.0.0 choice.microsoft.com.nsatc.net
+0.0.0.0 compatexchange.cloudapp.net
+0.0.0.0 corp.sts.microsoft.com
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
+0.0.0.0 cs1.wpc.v0cdn.net
+0.0.0.0 df.telemetry.microsoft.com
+0.0.0.0 diagnostics.support.microsoft.com
+0.0.0.0 fe2.update.microsoft.com.akadns.net
+0.0.0.0 feedback.microsoft-hohm.com
+0.0.0.0 feedback.search.microsoft.com
+0.0.0.0 feedback.windows.com
+0.0.0.0 i1.services.social.microsoft.com
+0.0.0.0 i1.services.social.microsoft.com.nsatc.net
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
+0.0.0.0 pre.footprintpredict.com
+0.0.0.0 redir.metaservices.microsoft.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 services.wes.df.telemetry.microsoft.com
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 sls.update.microsoft.com.akadns.net
+0.0.0.0 sqm.df.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
+0.0.0.0 statsfe1.ws.microsoft.com
+0.0.0.0 statsfe2.update.microsoft.com.akadns.net
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 survey.watson.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
+0.0.0.0 telemetry.appex.bing.net
+0.0.0.0 telemetry.appex.bing.net:443
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 telemetry.urs.microsoft.com
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 vortex-sandbox.data.microsoft.com
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 watson.live.com
+0.0.0.0 watson.microsoft.com
+0.0.0.0 watson.ppe.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 dc.trafficmanager.net
+0.0.0.0 weu-breeziest-in.cloudapp.net
 
 # Why would you even read through all of this, anyways. Here's a cookie! 🍪

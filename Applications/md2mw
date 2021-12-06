@@ -4,5 +4,7 @@
 #
 # Note that it outputs the result into the terminal, not into a file
 #
+# Usage: md2mw (markdown file) (desired txt file name) 
+#
 
-pandoc --from=markdown --to=mediawiki "$1"
+pandoc "$1" -f markdown -t mediawiki -s -o "$2" 

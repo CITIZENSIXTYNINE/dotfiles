@@ -6,13 +6,11 @@ This folder contains a few tools that i use, you just need to drop them on your 
 
 - 0x0 - a simple script that lets you upload files to 0x0.st.
 
-- ex - script that allows you to extract files (tar, zip, rar, etc=
+- ex - script that allows you to extract files (tar, zip, rar, etc)
 
-- yt - a youtube-dl script to download stuff in your /Videos folder
+- yt - a yt-dlp script to download stuff in your /Videos folder
 
 - md2mw - script to convert Markdown files into Mediawiki format (for Wikipedia, LMW, etc)
-
-- pc-install - fast "backup" script for powercord
 
 ## Usage
 
@@ -31,7 +29,3 @@ For `md2mw`:
 For `yt`:
 
 - `yt (youtube link)`
-
-For `pc-install`:
-
-- no.... `pc-install`
